@@ -168,7 +168,7 @@ else:
 
     data = [trace_open, trace_high, trace_low, trace_close]
 
-    layout = go.Layout(title=f"{fund} Stock Price Forecast", xaxis_rangeslider_visible=True)
+    layout = go.Layout(title=f"{fund} Price Forecast", xaxis_rangeslider_visible=True)
 
     fig6 = go.Figure(data=data, layout=layout)
     st.plotly_chart(fig6)
