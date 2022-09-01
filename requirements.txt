@@ -3,4 +3,4 @@ finnomena-api
 matplotlib
 streamlit
 plotly
-prophet>=1.1
+fbprophet>=1.1
