@@ -1,6 +1,7 @@
 pandas
 finnomena-api
 matplotlib
-streamlit
-plotly
-fbprophet>=1.1
+streamlit==0.82.0
+pystan==2.19.1.1
+plotly==4.14.3
+fbprophet==0.7.1
