@@ -2,7 +2,11 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import finnomena_api as fin
-from fbprophet import Prophet
+from prophet import Prophet
+try:
+    from fbprophet import Prophet
+except:
+    pass
 import matplotlib.pyplot as plt
 import plotly.graph_objs as go
 from plotly.subplots import make_subplots
